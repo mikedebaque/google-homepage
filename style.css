@@ -2,6 +2,7 @@ img{
     height: 92px;
     width: 272px;
     margin-top: 89px;
+    padding-bottom: 24px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -12,11 +13,15 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 584px;
+    height: 44px;
     position: relative;
     margin: 0 auto;
     padding-left: 12px;
     padding-top: 6px;
-    text-align: center;
+    border-radius: 24px;
+    box-shadow: none;
+    background: #fff;
+    border: 1px solid #dfe1e5;
 }
 
 .buttons input{
@@ -29,4 +34,36 @@ img{
     text-align: center;
     cursor: pointer;
     display: inline-block;
+}
+
+.header{
+    text-align: right;
+    display: flex;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,87);
+    text-decoration: none;
+}
+.gmailLink{
+    padding-right: 6px;
+    margin-left: auto;
+}
+.googleProducts{
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-size: 528px 68px;
+    width: 30px;
+    height: 30px;
+    background-position: -132px -38px;
+    display: inline-block;
+    padding-right: 6px;
+}
+.googleAcc{
+    display: block;
+    height: 32px;
+    width: 32px;
+    background-image: url(https://lh3.googleusercontent.com/-tMV7ShVMcow/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3reaA_BjBc3zPrpeP7h5wGUvrf1yiA/s32-c-mo/photo.jpg);
+}
+
+.footer{
+    background-color: #5F6368;
 }
